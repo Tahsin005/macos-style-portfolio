@@ -506,7 +506,7 @@ const WORK_LOCATION = {
                 {
                     id: 5,
                     name: "GitHub.git",
-                    icon: "/images/plain.png",
+                    icon: "/images/github-1.png",
                     kind: "file",
                     fileType: "git",
                     href: "https://github.com/Tahsin005/somewhat-simple-ai-agent",
