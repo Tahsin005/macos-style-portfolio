@@ -246,17 +246,17 @@ body {
     }
 
     .content {
-      @apply relative max-w-2xl flex-1 bg-white p-8;
+      @apply flex-1 bg-white p-8 grid grid-cols-4 gap-4 content-start;
 
       li {
-        @apply absolute flex flex-col items-center gap-3;
+        @apply flex cursor-pointer flex-col items-center gap-3 text-center;
 
         img {
-          @apply relative size-16 object-contain object-center group-hover:scale-105;
+          @apply size-16 object-contain group-hover:scale-105;
         }
 
         p {
-          @apply w-40 text-center text-sm font-medium;
+          @apply w-full break-words px-2 text-sm font-medium;
         }
       }
     }
