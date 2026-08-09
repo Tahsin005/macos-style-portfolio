@@ -653,7 +653,7 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
-            href: "/files/resume.pdf",
+            // href: "/files/resume.pdf",
         },
     ],
 };

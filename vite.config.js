@@ -17,4 +17,7 @@ export default defineConfig({
       "#windows": resolve(rootDir, "src/windows"),
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1600,
+  },
 });
