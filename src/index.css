@@ -141,11 +141,11 @@ body {
           }
 
           h3 {
-            @apply ms-5 w-32 font-semibold text-[#00A154];
+            @apply ms-5 w-48 shrink-0 font-semibold text-[#00A154];
           }
 
           ul {
-            @apply flex items-center gap-3;
+            @apply flex flex-wrap items-center gap-3;
           }
         }
       }
