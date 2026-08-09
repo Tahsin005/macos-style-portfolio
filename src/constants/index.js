@@ -109,16 +109,14 @@ const techStack = [
         items: ["React.js", "Next.js", "Tailwind CSS"],
     },
     {
-        category: "Backend & Frameworks",
+        category: "Backend",
         items: [
             "Django",
-            "Django REST Framework",
+            "DRF",
             "Gin",
-            "GORM",
             "Express.js",
             "Node.js",
-            "Prisma",
-            "Mongoose",
+            "Drizzle",
         ],
     },
     {
